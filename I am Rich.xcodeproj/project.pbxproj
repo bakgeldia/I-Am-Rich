@@ -10,8 +10,6 @@
 		FCDC40392C946FCC00BC490A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC40382C946FCC00BC490A /* AppDelegate.swift */; };
 		FCDC403B2C946FCC00BC490A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC403A2C946FCC00BC490A /* SceneDelegate.swift */; };
 		FCDC403D2C946FCC00BC490A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC403C2C946FCC00BC490A /* ViewController.swift */; };
-		FCDC40402C946FCC00BC490A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FCDC403F2C946FCC00BC490A /* Base */; };
-		FCDC40432C946FCC00BC490A /* I_am_Rich.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCDC40412C946FCC00BC490A /* I_am_Rich.xcdatamodeld */; };
 		FCDC40452C946FCE00BC490A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDC40442C946FCE00BC490A /* Assets.xcassets */; };
 		FCDC40482C946FCE00BC490A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FCDC40472C946FCE00BC490A /* Base */; };
 /* End PBXBuildFile section */
@@ -21,8 +19,6 @@
 		FCDC40382C946FCC00BC490A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCDC403A2C946FCC00BC490A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FCDC403C2C946FCC00BC490A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCDC403F2C946FCC00BC490A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FCDC40422C946FCC00BC490A /* I_am_Rich.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = I_am_Rich.xcdatamodel; sourceTree = "<group>"; };
 		FCDC40442C946FCE00BC490A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCDC40472C946FCE00BC490A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCDC40492C946FCE00BC490A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,11 +57,9 @@
 				FCDC40382C946FCC00BC490A /* AppDelegate.swift */,
 				FCDC403A2C946FCC00BC490A /* SceneDelegate.swift */,
 				FCDC403C2C946FCC00BC490A /* ViewController.swift */,
-				FCDC403E2C946FCC00BC490A /* Main.storyboard */,
 				FCDC40442C946FCE00BC490A /* Assets.xcassets */,
 				FCDC40462C946FCE00BC490A /* LaunchScreen.storyboard */,
 				FCDC40492C946FCE00BC490A /* Info.plist */,
-				FCDC40412C946FCC00BC490A /* I_am_Rich.xcdatamodeld */,
 			);
 			path = "I am Rich";
 			sourceTree = "<group>";
@@ -130,7 +124,6 @@
 			files = (
 				FCDC40452C946FCE00BC490A /* Assets.xcassets in Resources */,
 				FCDC40482C946FCE00BC490A /* Base in Resources */,
-				FCDC40402C946FCC00BC490A /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCDC403D2C946FCC00BC490A /* ViewController.swift in Sources */,
-				FCDC40432C946FCC00BC490A /* I_am_Rich.xcdatamodeld in Sources */,
 				FCDC40392C946FCC00BC490A /* AppDelegate.swift in Sources */,
 				FCDC403B2C946FCC00BC490A /* SceneDelegate.swift in Sources */,
 			);
@@ -151,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FCDC403E2C946FCC00BC490A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCDC403F2C946FCC00BC490A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FCDC40462C946FCE00BC490A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -222,7 +206,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -279,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -301,9 +285,8 @@
 				INFOPLIST_FILE = "I am Rich/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +294,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bakgeldia.I-am-Rich";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,9 +316,8 @@
 				INFOPLIST_FILE = "I am Rich/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +325,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bakgeldia.I-am-Rich";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,19 +357,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		FCDC40412C946FCC00BC490A /* I_am_Rich.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				FCDC40422C946FCC00BC490A /* I_am_Rich.xcdatamodel */,
-			);
-			currentVersion = FCDC40422C946FCC00BC490A /* I_am_Rich.xcdatamodel */;
-			path = I_am_Rich.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = FCDC402D2C946FCC00BC490A /* Project object */;
 }
